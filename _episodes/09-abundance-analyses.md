@@ -212,7 +212,7 @@ information; and plotting**:
 >       `geom_bar(aes(), stat="identity", position="stack")+`  
 >       `scale_fill_manual(values = phylum_colors_abs)`  
 > 
-> C) `absolute_$Phylum[absolute_$Abundance < 300] <- "Minoritary Phyla"`
+> C) `absolute_df$Phylum[absolute_df$Abundance < 300] <- "Minoritary Phyla"`
 > 
 > D) `phylum_colors_abs<- colorRampPalette(brewer.pal(8,"Dark2")) (length(levels(absolute_df$Phylum)))`
 > 
